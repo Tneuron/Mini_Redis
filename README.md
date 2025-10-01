@@ -28,6 +28,7 @@ g++ client.cpp -o client
 ./server
 4. Run the client
 ./client
+
 You can start multiple clients to connect concurrently to the server.
 
 # Project Structure
