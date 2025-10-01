@@ -32,12 +32,12 @@ You can start multiple clients to connect concurrently to the server.
 
 # Project Structure
 mini_redis/
-│── server.cpp       # Server code (handles client connections)
-│── client.cpp       # Client code (connects to server)
-│── parser.cpp       # Command parser
-│── json_store.cpp   # JSON snapshot handling (load/save)
-│── json_store.h     # Header for db + mutex
-│── snapshot_db.json # Persistent database (auto-created)
+1. server.cpp       # Server code (handles client connections)
+2. client.cpp       # Client code (connects to server)
+3. parser.cpp       # Command parser
+4. json_store.cpp   # JSON snapshot handling (load/save)
+5. json_store.h     # Header for db + mutex
+6. snapshot_db.json # Persistent database (auto-created)
 
 # Future Improvements
 
